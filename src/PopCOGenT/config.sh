@@ -1,5 +1,5 @@
 # Base name for final output files ust a prefix to identify your outputs.
-base_name='sulfolobus'
+base_name='prochlorococcus'
 
 # Output directory for the final output files.
 # This will create the directory if it does not already exist.
@@ -7,11 +7,11 @@ final_output_dir=./output/
 mkdir -p ${final_output_dir}
 
 # Path to mugsy and mugsyenv.sh. Please provide absolute path.
-mugsy_path=/home/parevalo/apps/mugsy_trunk/mugsy
-mugsy_env=/home/parevalo/apps/mugsy_trunk/mugsyenv.sh
+mugsy_path=/home/vini/anaconda3/bin/mugsy
+mugsy_env=/home/vini/anaconda3/bin/mugsyenv.sh
 
 # Path to infomap executable. Please provide absolute path.
-infomap_path=/nobackup1/parevalo/Infomap/Infomap
+infomap_path=/home/vini/Bio/infomap/Infomap
 
 # Path to genome files.
 genome_dir=../../test/
