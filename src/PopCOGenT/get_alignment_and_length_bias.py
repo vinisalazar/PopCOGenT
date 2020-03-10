@@ -1,7 +1,10 @@
 import argparse
 from os import path, makedirs
 from random import randint
-from .length_bias_functions import *
+from .length_bias_functions import (
+    align_and_calculate_length_bias,
+    rename_for_mugsy,
+)
 from joblib import Parallel, delayed
 import glob
 from itertools import combinations
@@ -10,7 +13,7 @@ import pandas as pd
 
 def main():
     parser = argparse.ArgumentParser(
-        description=("Align contigs in a job array"),
+        description="Align contigs in a job array",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
 
