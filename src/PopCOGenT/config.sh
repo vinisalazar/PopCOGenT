@@ -11,7 +11,7 @@ mugsy_path=${CONDA_PREFIX}/bin/mugsy
 mugsy_env=${CONDA_PREFIX}/bin/mugsyenv.sh
 
 # Path to infomap executable. Please provide absolute path.
-infomap_path=${CONDA_PREFIX}/Infomap
+infomap_path=${CONDA_PREFIX}/bin/Infomap
 
 # Path to genome files.
 genome_dir=../../test/
