@@ -7,11 +7,11 @@ final_output_dir=./output/
 mkdir -p ${final_output_dir}
 
 # Path to mugsy and mugsyenv.sh. Please provide absolute path.
-mugsy_path=/home/vini/anaconda3/bin/mugsy
-mugsy_env=/home/vini/anaconda3/bin/mugsyenv.sh
+mugsy_path=${CONDA_PREFIX}/bin/mugsy
+mugsy_env=${CONDA_PREFIX}/bin/mugsyenv.sh
 
 # Path to infomap executable. Please provide absolute path.
-infomap_path=/home/vini/Bio/infomap/Infomap
+infomap_path=${CONDA_PREFIX}/Infomap
 
 # Path to genome files.
 genome_dir=../../test/
