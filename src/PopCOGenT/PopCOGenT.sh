@@ -2,8 +2,11 @@
 
 configfile=./config.sh
 source ${configfile}
-source activate PopCOGenT
-source ${mugsy_env}
+#source activate PopCOGenT
+#source ${mugsy_env}
+mugsy_path=${CONDA_PREFIX}/bin/mugsy
+mugsy_env=${CONDA_PREFIX}/bin/mugsyenv.sh
+MUGSY_INSTALL=${CONDA_PREFIX}/bin
 
 if [ "${slurm_str}" = "" ]
 	then
